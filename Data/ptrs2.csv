@@ -1,0 +1,82 @@
+name;tableptr;ptrType;structure;count;specialHandler;minAddr;maxAddr;isScript;lineWidth;comment
+tbl001;0x00B206;d;6,r;8;;;;true;280;Chapter Intros
+tbl002;0x00B416;d;4,d;31;;;;true;280;World Battle Victory
+tbl003;0x00B1F0;d;4,d;32;;;;true;280;Stage Intro
+tbl004;0x00B2E4,0x00B4B4;d;4,d;32;;;;true;208;Battle Briefing
+tbl005;0x00B0CE,0x00B3CC,0x00B572;d;4,d;32;;;;true;208;Battle Victory
+tbl006;0x00F71A;d;2,n;128;;;;true;208;Battle Messages
+tbl007;0x00B33A,0x00B50A;d;2,r;8;;;;true;208;Battle Defeat
+tbl008;0x00CE1A;d;2,r;32;;;;true;208;Help Menu
+tbl009;0x03F046;r;2,f,8;128;special1;;;true;208;Help Choices
+tbl010;0x03B022;d;2,r,4,4,4,4,4,4,4,4,4;9;special2;;;false;280;Skirmish Strings
+tbl011;0x03C0BC;r;2,r;32;special3;;;true;208;Battle Scripts
+tbl012;0x01BD14,0x01DDD6;d;2,r,32,53,53;3;special2;;;false;280;Map Names
+tbl013;0x03C75C;r;2,f;14;;;;true;208;Turorial
+tbl014;0x01D884,0x01DB74;d;2,r;8;;;;false;280;Chapter Titles
+tbl015;0x01CDEA;d;2,r;26;;;;false;280;Menu Choices
+tbl016;0x01D8BC;d;2,r;8;;;;false;256;Chapter Messages
+tbl017;0x03B4FE;s;2,r;20;LEA table;;;false;280;LEA table
+tbl018;0x03B58C;s;2,r;3;LEA table;;;false;280;LEA table
+tbl019;0x03B576;s;2,r;3;LEA table;;;false;280;LEA table
+tbl020;0x03B57C;s;2,r;3;LEA table;;;false;280;LEA table
+tbl021;0x03C7CA;s;2,f;8;LEA table;;;true;208;LEA table
+tbl022;0x01F58E;d;4,f;32;;;;false;280;Staff Roll
+tbl023;0x01F48A;d;4,f;28;;;;false;280;First Staff Roll
+tbl024;0x0107B8;d;2,r;36;;;;false;280;Dialog Character Names
+ptr001;0x01E93E;d;4,s;1;;0x04A000;0x050000;true;280;Ending
+ptr002;0x01E9EA;d;4,s;1;;0x04A000;0x050000;true;280;Ending - Gesyu Part 1
+ptr003;0x01EA1A;d;4,s;1;;0x04A000;0x050000;true;280;Ending - Gesyu Part 2
+ptr004;0x01EA26;d;4,s;1;;0x04A000;0x050000;true;280;Ending - Dialog with Genie
+ptr005;0x01E35C;d;4,s;1;;0x04A000;0x050000;true;280;Introduction Demo
+ptr006;0x00BA68,0x00BD38;d;4,s;1;;0x04A000;0x050000;true;208;Game - Not Enough Money
+ptr007;0x00DD30,0x00C77C;d;4,s;1;;0x04A000;0x050000;true;208;Game - Route Blocked
+ptr008;0x00DD22,0x00C754;d;4,s;1;;0x04A000;0x050000;true;208;Game - Dangerous Enemy
+ptr009;0x00C630;d;4,s;1;;0x04A000;0x050000;true;208;Game- Can't Reach Target
+ptr010;0x00C8A0;d;4,s;1;;0x04A000;0x050000;true;208;Game- Unit is Busy
+ptr011;0x00C8CC;d;4,s;1;;0x04A000;0x050000;true;208;Game - Override Orders
+ptr012;0x00C8F8;d;4,s;1;;0x04A000;0x050000;true;208;Game - Giving Up
+ptr013;0x00CFAE;d;4,s;1;;0x04A000;0x050000;true;208;Skirmish - Making Alliance
+ptr014;0x00FBA6;d;4,s;1;;0x04A000;0x050000;true;208;Skirmish - Breaking Alliance
+ptr015;0x00CF08;d;4,s;1;;0x04A000;0x050000;true;208;Skirmish - Alliance Refused
+ptr016;0x00F702;d;4,s;1;;0x04A000;0x050000;true;208;Skirmish - King Defeated
+ptr017;0x00B09A;d;4,s;1;;0x04A000;0x050000;true;208;Skirmish - Game Over
+ptr018;0x01DE02;d;4,s;1;;0x04A000;0x050000;false;280;Challenge ending  - Remaining Days
+ptr019;0x01DE1A;d;4,s;1;;0x04A000;0x050000;false;280;Challenge ending  - Days Spent
+ptr020;0x01DE38;d;4,s;1;;0x04A000;0x050000;false;280;Challenge ending  - Occupation Rate
+ptr021;0x01DE76;d;4,s;1;;0x04A000;0x050000;false;280;Challenge ending  - Bonus
+ptr022;0x01DE90;d;4,s;1;;0x04A000;0x050000;false;280;Challenge ending  - Days Carried Forward
+ptr023;0x01DEA8;d;4,s;1;;0x04A000;0x050000;false;280;Challenge ending  - Days difference
+ptr024;0x01DED4;d;4,s;1;;0x04A000;0x050000;false;280;Certificate
+ptr025;0x01DEE2;d;4,s;1;;0x04A000;0x050000;false;280;Lord Monarch
+ptr026;0x01DBA6;d;4,s;1;;0x04A000;0x050000;false;280;Complete
+ptr027;0x006D16;d;4,s;1;;0x04A000;0x050000;true;280;Init Error
+ptr028;0x00AFAE,0x00B162;d;4,s;1;;0x04A000;0x050000;true;280;SRAM Problem
+ptr029;0x01BFD0;d;4,s;1;;0x04A000;0x050000;true;280;Some Error
+ptr030;0x01BFFA;d;4,s;1;;0x04A000;0x050000;true;280;Some Error 2
+ptr031;0x01AEDE;d;4,s;1;;0x04A000;0x050000;true;280;When Replayed Mission
+ptr032;0x01B2BE;d;4,s;1;;0x04A000;0x050000;true;280;Status Screen Time Left
+ptr033;0x01AC80;d;4,s;1;;0x04A000;0x050000;false;208;Certification Message
+ptr034;0x01AFCA;d;4,s;1;;0x04A000;0x050000;true;280;Certificate Rank on Challenge Screen
+ptr035;0x01DB54;d;4,s;1;;0x04A000;0x050000;true;280;Chapter Number
+ptr036;0x018CDA;d;4,s;1;;;;true;208;Event - Blizzard
+ptr037;0x019260;d;4,s;1;;;;true;208;Event - Gesyu Help
+ptr038;0x01A5B6;d;4,s;1;;;;true;208;Event - Seals Activated
+ptr039;0x01C2A2,0x01C392;d;4,s;1;;;;true;280;Main Menu player profile labels
+ptr040;0x01C300;d;4,s;1;;;;false;280;Erase Move Record
+ptr041;0x01C462,0x01CB32;d;4,s;1;;;;false;280;Yes/No
+ptr042;0x01C47E,0x01C858;d;4,s;1;;;;false;280;Story Challenge Options
+ptr043;0x01C49A,0x01C8AE;d;4,s;1;;;;false;280;Normal Advanced Story
+ptr044;0x01C4B6,0x01CA42;d;4,s;1;;;;false;280;New Game+ options
+ptr045;0x01EA3E;d;4,s;1;;;;true;280;True Ending
+ptr046;0x00DEBE;d;4,s;1;;;;true;208;Game - My Turn to Shine
+ptr047;0x01DEFA;d;4,s;1;;;;true;280;Ranks
+ptr048;0x01DEEE;d;4,s;1;;;;true;280;Ranks 2
+ptr049;0x03C6F2;r;4,s;1;;;;true;208;Game -Almost Victory
+ptr050;0x03C11C;r;4,s;1;;;;true;208;Game -Town Captured
+ptr051;0x03C12A;r;4,s;1;;;;true;208;Game - Found a Treasure
+ptr052;0x03C138;r;4,s;1;;;;true;208;Game - Attacking an Ally
+ptr053;0x03C6E2;r;4,s;1;;;;true;208;Game - Failed
+ptr054;0x01BEC4;d;4,s;1;;;;true;280;Unable to Save
+ptr055;0x00B394,0x00B55A;d;4,s;1;;;;true;280;Continue Screen
+ptr056;0x01C3B0,0x01C2D8;d;4,s;1;;;;true;280;Unable to Save
+ptr057;0x01C8C0;d;4,s;1;;;;false;280;NormalAdvanced

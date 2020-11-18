@@ -1,0 +1,22 @@
+﻿code;name;length;comment
+0x00;op_exit;1;Quit execution
+0x01;op_linebreak;1;Line break
+0x02;op_textcontrol;1;Some text control
+0x03;op_textcontrol;1;Some text control
+0x04;op_set_script_control_flags;2;Set script flags (skipping, etc)
+0x05;op_reset_script_control_flags;1;Clears all script flags
+0x06;op_print_variable;6;Print variable located at RAM
+0x07;op_unk_07;4;Unknown
+0x08;op_unk_08;2;Unknown
+0x09;op_inlinecode;;Inline code
+0x0a;op_callfunction;;Call function
+0x0b;op_menu_create;5;Create menu
+0x0c;op_jump;5;Jump to offset
+0x0d;op_gosub;5;Jump to offset (with return)
+0x0e;op_menu_option;1;Menu option
+0x0f;op_screen_tint;1;Tints screen with blue
+0x10;op_unk_10;1;Unknown
+0x11;op_control_text_flow;2;Some script control actions
+0x12;op_setportrait;3;Set portrait
+0x13;op_setportrait;3;Set portrait
+0x14;op_draw_top_topup;1;Draws popup with text at top

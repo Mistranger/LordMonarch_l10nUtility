@@ -1,0 +1,10 @@
+addr;file;comment
+0x13D160;i_0x13D160.bin;Ingame distance labels
+0x165f00;i_0x165f00.bin;8x16 font
+0x1bb1c0;i_0x1bb1c0.bin;16x16 addon font
+0x15fea0;i_0x15fea0.bin;Post order action layout
+0x1bf55a;i_0x1bf55a.bin;Post order action layout
+0x1bf688;i_0x1bf688.bin;Post order action layout
+0x1bfd74;i_0x1bfd74.bin;Route blocked message layout
+0x1bfe16;i_0x1bfe16.bin;Dangerous enemy message layout
+0x054000;i_0x54000.bin;8x16 font
