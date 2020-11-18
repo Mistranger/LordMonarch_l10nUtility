@@ -17,25 +17,25 @@
  - Translations - SQLite3 translation databases (template file included)
 
 **Helper CSV files info:**
-*asm.csv*
-    Defines memory blocks in ROM space that are vacant for ASM patches
-*asm_links.csv*
-	Defines hooks from ASM patches to original code (r - using JSRs, d - using JMPs)
-	The utility parses "vasm" log file to determine real addresses of assembled code in ROM and then uses this information to create hooks in code.
-*free_space.csv*
-	ROM vacant space map. length field is just for reference. The file structure is used by memory allocator in utility to store translated scripts.
-*gfxreplace.csv*
-	Data that needs to be replaced using in-game resource manager. The resource index is located at 0x040800 in ROM.
-*opcodes.csv*
-	Opcodes used in dialogue scripts.
-*patchbin.csv*
-	Files that are directly included into ROM at specified addresses.
-*ptrs2.csv*
-	Script pointer references. The main file used by utility.
-*ptrs8x16.csv*
-	Pointers to text that use 8x16 font to draw (hints, menu labels)
-*tutorial.csv*
-	Tutorial demo replay file (used to fix demo sync)
+
+asm.csv - Defines memory blocks in ROM space that are vacant for ASM patches
+
+asm_links.csv - Defines hooks from ASM patches to original code (r - using JSRs, d - using JMPs)
+        The utility parses "vasm" log file to determine real addresses of assembled code in ROM and then uses this information to create hooks in code.
+
+free_space.csv - ROM vacant space map. length field is just for reference. The file structure is used by memory allocator in utility to store translated scripts.
+
+gfxreplace.csv - Data that needs to be replaced using in-game resource manager. The resource index is located at 0x040800 in ROM.
+
+opcodes.csv - Opcodes used in dialogue scripts.
+
+patchbin.csv - Files that are directly included into ROM at specified addresses.
+
+ptrs2.csv - Script pointer references. The main file used by utility.
+
+ptrs8x16.csv - Pointers to text that use 8x16 font to draw (hints, menu labels)
+
+tutorial.csv - Tutorial demo replay file (used to fix demo sync)
 
 **Usage:**
 1. Place original ROM file in ROM_Original directory.
