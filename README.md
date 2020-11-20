@@ -1,6 +1,6 @@
 ## Lord Monarch patching utility used for Nebulous Translations English translation release of Lord Monarch
 
-(c) 2020 by cybermind, cybermindid@gmail.com
+(c) 2020 by cybermind
 
 **Directory structure:**
 
